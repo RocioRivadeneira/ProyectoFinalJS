@@ -1,0 +1,26 @@
+footer {
+    min-height: 60px;
+    background-color: $colorBackFooter;
+
+    .icon-red {
+        font-size: $fontSizeButton;
+       
+    }
+}
+footer .icon-red:hover{
+  color: black;
+  
+}
+
+  span{
+    color:map-get($span, color);
+    text-align: map-get($span, text-align);
+  }
+
+
+
+@each $red, $color in $redes {
+    .#{$red} {
+        color: $color;
+    }
+}

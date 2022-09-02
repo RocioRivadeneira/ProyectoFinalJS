@@ -1,0 +1,29 @@
+.portada-principal {
+    width: auto;
+
+    .text-principal {
+        margin: 5px;
+        font-size: 20px;
+    }
+}
+
+.one {
+    @extend .display;
+      
+    img {
+        width: 50%;
+    }
+    .text-secundario {
+        @extend .mar-font;
+    }
+}
+.two {
+    @extend .display;
+    flex-direction: row-reverse;
+    img {
+        width: 50%;
+    }
+    .text-secundario {
+        @extend .mar-font;
+    }
+}

@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "imagen": {
+            "src": "images/galeria/galeria.jpg",
+            "alt": "juego de comedor"
+        },
+        "nombre": "Juego de comedor",
+        "descripcion": "juego de mesa y 4 sillas de hierro modelo romano con 4 almohadones eco cuero talampaya color natural. Varios colores de tapiz",
+        "precio": 60000,
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "imagen": {
+            "src": "images/galeria/galeria1.jpg",
+            "alt": "muebles de habitacion"
+        },
+        "nombre": "Cama con baulera",
+        "descripcion": "Cama Box Base Sommiers Cajones Madera Multifunción. Colores: Madera Clara / Madera Oscura / LaqueadoBlanco.",
+        "precio": 30000,
+        "stock": 100
+    },
+    {
+        "id": 3,
+        "imagen": { "src": "images/galeria/galeria2.jpg", "alt": "parrila" },
+        "nombre": "Parrilla",
+        "descripcion": "Parrilla móvil. Fogón incorporado y leñeroincorporado Pala, atizador de regalo y 2 tablas congrabado personalizado.",
+        "precio": 50000,
+        "stock": 100
+    },
+    {
+        "id": 4,
+        "imagen": {
+            "src": "images/galeria/galeria3.jpg",
+            "alt": "muebles para baño"
+        },
+        "nombre": "Juego de baño",
+        "descripcion": "Asegura durabilidad duradera con construcción de tubo acero. tratamiento cromado para mayor resistencia y fácil instalación y fácil manejo.",
+        "precio": 20000,
+        "stock": 100
+    },
+    {
+        "id": 5,
+        "imagen": {
+            "src": "images/galeria/galeria4.jpg",
+            "alt": "disco artesanal"
+        },
+        "nombre": "Disco Artesanal",
+        "descripcion": "Disco de acero, 3 patas desmontables se pueden usar en la parrilla en un mechero o directo al suelo. Las manijas son de hierro al igual que la tapa.",
+        "precio": 25000,
+        "stock": 100
+    },
+    {
+        "id": 6,
+        "imagen": {
+            "src": "images/galeria/galeria5.jpg",
+            "alt": "porta macetas"
+        },
+        "nombre": "Porta Macetas",
+        "descripcion": " Soporte para macetas colgantes hay disponibles para 6, 5, 4 y 2 macetas. Vienen pintados de blanco o negro. Se pueden hacer de distintas formas artesanales",
+        "precio": 10000,
+        "stock": 100
+    },
+    {
+        "id": 7,
+        "imagen": {
+            "src": "images/promos/estante-cocina.jpg",
+            "alt": "estante de cocina"
+        },
+        "nombre": "Estante de cocina",
+        "descripcion": "Estante organizador de hierro y madera extra fuerte para cocina. Madera de una pulgada de espesor , soporte de hierro reforzado.",
+        "precio": 25000,
+        "stock": 100
+    },
+    {
+        "id": 8,
+        "imagen": {
+            "src": "images/promos/cucheta.jpg",
+            "alt": "cucheta infantil"
+        },
+        "nombre": "Cucheta infantil",
+        "descripcion": " Incluye baranda y escalera. Color natural + kit de tornillos, arandelas y tuercas. Viene en color natural, lijadas, cepilladas y barnizadas, lista para usar.",
+        "precio": 25000,
+        "stock": 100
+    },
+    {
+        "id": 9,
+        "imagen": {
+            "src": "images/promos/estante-comedor.jpg",
+            "alt": "estante de comedor"
+        },
+        "nombre": "Estante de Comedor",
+        "descripcion": "3 Repisas estantes flotantes de madera maciza resistente apta para tu sala o cocina. Puedes mantener tus espacios organizados.",
+        "precio": 25000,
+        "stock": 100
+    },
+    {
+        "id": 10,
+        "imagen": {
+            "src": "images/promos/juego-exterior.jpg",
+            "alt": "juego de exterior"
+        },
+        "nombre": "Juego de exterior",
+        "descripcion": "Mesa y Bancos Fabricados con Tapas en Madera Petiribi y Estructura en Hierro Negro. Incluye mesa con sus respectivas 4 sillas.",
+        "precio": 25000,
+        "stock": 100
+    },
+    {
+        "id": 11,
+        "imagen": {
+            "src": "images/promos/maquillaje.jpg",
+            "alt": "mesa de maquillaje"
+        },
+        "nombre": "Mesa de maquillaje",
+        "descripcion": "Hecha con melamina, 6 cajones, silla en conjunto, estante en el lado derecho y espejo de 30cm*50cm con espejos laterales.",
+        "precio": 25000,
+        "stock": 100
+    },
+    {
+        "id": 12,
+        "imagen": {
+            "src": "images/promos/parrilla.jpg",
+            "alt": "parrilla movediza"
+        },
+        "nombre": "Parrilla movediza",
+        "descripcion": "Apta para carbón o leña, lugar para poner el fuego en el costado, parrilla con manija y ruedas de polipropileno. Se hace a medida.",
+        "precio": 25000,
+        "stock": 100
+    }
+]

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Muebles de interior y exterior artesanal. Hechos totalmente a medida y con presupuesto accesible"
+        />
+        <meta
+            name="keywords"
+            content="Muebles, Hogar, Sillas, Madera, Hierro, Artesano"
+        />
+        <link rel="icon" type="image/png" href="./images/favicon.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Source+Sans+Pro:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="css/estilocss.css" />
+        <title>Muebles Smith´s</title>
+    </head>
+
+    <body>
+        <!--header-->
+        <header class="navbar-expand-lg">
+            <div>
+                <div
+                    class="navbar d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between"
+                >
+                    <a class="navbar-brand" href="./index.html">
+                        <img
+                            src="./images/logo.png"
+                            alt="logo"
+                            width="150"
+                            height="150"
+                            class="logo m-sm-2"
+                        />
+                    </a>
+
+                    <h1 class="animate__animated animate__bounceIn">
+                        Muebles Smith´s
+                    </h1>
+
+                    <a href="./pages/carrito.html">
+                        <button
+                            class="button-nav carrito"
+                            type="text"
+                            id="BotonCarrito"
+                        >
+                            Carrito
+                        </button>
+                    </a>
+                </div>
+
+                <nav
+                    class="d-flex flex-column flex-sm-row flex-wrap justify-content-evenly barra-nav px-3"
+                >
+                <a href="./index.html">
+                    <button class="button-nav">Inicio</button>
+                </a>
+
+                <a href="./pages/contacto.html">
+                    <button class="button-nav">Contactanos</button>
+                </a>
+
+                <a href="./pages/nosotros.html">
+                    <button class="button-nav">Sobre nosotros</button>
+                </a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!--main-->
+            <article
+                id="banner"
+                class="carousel slide d-none d-sm-block"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="./images/banner/banner.jpg"
+                            class="d-block w-100 img-fluid"
+                            alt="banner-moledora"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="./images/banner/banner1.jpg"
+                            class="d-block w-100 img-fluid"
+                            alt="..."
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="./images/banner/banner2.jpg"
+                            class="d-block w-100 img-fluid"
+                            alt="..."
+                        />
+                    </div>
+                </div>
+
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#banner"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#banner"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </article>
+
+
+            <h3 class="mb-0">Productos</h3>
+
+            <form id="buscador" class="d-flex mt-4 mx-auto w-50 h-50 justify-content-center ">
+                <input
+                    class="form-control  w-25 m-2 mt-0 pt-0 input-buscador"
+                    name="texto"
+                    type="search"
+                    placeholder="Buscar.."
+                    aria-label="Search"
+                />
+                <button class="button-nav w-25 mt-0 pt-0" type="submit">
+                    Buscar
+                </button>
+            </form>
+
+            <article
+                class="container d-flex flex-wrap justify-content-evenly catalogo"
+                id="productos"
+            ></article>
+
+            </article>
+        </main>
+        <!--aside-->
+        <aside>
+            <div class="d-flex flex-wrap justify-content-evenly">
+                <img
+                    src="./images/bancos/bbva.png"
+                    alt="logo-bbva"
+                    class="bank"
+                />
+                <img
+                    src="./images/bancos/galicia.png"
+                    alt="logo-galicia"
+                    class="bank"
+                />
+                <img
+                    src="./images/bancos/hsbc.png"
+                    alt="logo-hsbc"
+                    class="bank"
+                />
+                <img
+                    src="./images/bancos/prov.png"
+                    alt="logo-bbva"
+                    class="bank"
+                />
+            </div>
+            <div class="mx-auto px-4 col-12 col-sm-9 col-md-6 col-lg-3">
+                <button class="button-nav">
+                    <a href="./pages/mediosdepago.html" class="aside">
+                        Ver todos los medios de pago:
+                    </a>
+                </button>
+            </div>
+        </aside>
+        <!--pie de pagina-->
+        <footer
+            class="d-flex flex-wrap align-items-center justify-content-center"
+        >
+            <span class="col-12 col-md-6">
+                © Derechos Reservados 2022 Muebles Smith´s Derechos de Contenido
+                Reservados.
+            </span>
+            <div class="d-flex justify-content-around col-12 col-md-6">
+                <a href="#instagram" class="icon-red icon-instagram">
+                    <i class="red fa-brands fa-instagram"></i>
+                </a>
+                <a href="#facebook" class="icon-red icon-facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#whatsapp" class="icon-red icon-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#twitter" class="icon-red icon-twitter">
+                    <i class="fa-brands fa-twitter-square"></i>
+                </a>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://kit.fontawesome.com/d1148bfc86.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./JS/funciones.js"></script>
+        <script src="./JS/productos.js"></script>
+    </body>
+</html>

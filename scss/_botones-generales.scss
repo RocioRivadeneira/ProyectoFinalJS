@@ -1,0 +1,28 @@
+.button-nav {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px 16px;
+    font-size: $fontSizeButtonNav;
+    border-radius: 0.5em;
+    background: $colorBackButton;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 6px #c5c5c5, -3px -3px 6px #ffffff;
+    color: black;
+    .aside {
+        color: black;
+    }
+}
+
+.button-nav:active {
+    background-color: rgb(36, 30, 30);
+    box-shadow: 4px 4px 12px #3b3737, -4px -4px 12px #ffffff;
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+    :hover {
+        border: 1px solid rgb(255, 252, 252);
+    }
+}

@@ -1,0 +1,12 @@
+article {
+    background-color: $articleBackCard;
+    
+
+    .card {
+        @include card;
+      
+        img {
+         @include img-card;
+        }
+    }
+}

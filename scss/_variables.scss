@@ -1,0 +1,68 @@
+* {
+    font-family: "Nunito", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+     
+}
+
+h3 {
+    text-align: center;
+    background-color: #EADEDE;
+  
+}
+
+/*----NAV----*/
+$colorBackNav: #d4d0af;
+
+/*----BOTONES----*/
+$colorBackButton:#9d9c8a ;
+$colorLetraButton: #090909;
+$fontSizeButtonNav: 18px;
+$colorBackHoverB: grey;
+
+/*----CARDS----*/
+$articleBackCard: white;
+
+@mixin card {
+    background-color: #eeddc6;
+    margin: 30px 0px 30px 0px;
+    width: 400px;
+}
+
+@mixin img-card {
+    margin: 15px auto 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/*---ASIDE---*/
+$colorBackAside: #fcffe7;
+
+/*--FOOTER--*/
+$redes: (
+    icon-instagram: rgb(242, 87, 113),
+    icon-facebook: rgb(12, 12, 230),
+    icon-whatsapp: rgb(18, 254, 18),
+    icon-twitter: rgb(55, 224, 246),
+);
+
+$span: (
+    color: black,
+    text-align: center,
+);
+
+$colorBackFooter: #d4d0af;
+$fontSizeButton: 30px;
+
+/*--FORMULARIO--*/
+$colorBackForm: #f5e0e0;
+$colorButtonForm: #ce9461;
+
+/*--NOSOTROS--*/
+.display {
+    display: flex;
+    align-items: center;
+}
+.mar-font {
+    margin: 40px;
+
+}

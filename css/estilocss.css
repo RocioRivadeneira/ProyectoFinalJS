@@ -1,0 +1,184 @@
+* {
+  font-family: "Nunito", sans-serif;
+  font-family: "Source Sans Pro", sans-serif; }
+
+h3 {
+  text-align: center;
+  background-color: #EADEDE; }
+
+/*----NAV----*/
+/*----BOTONES----*/
+/*----CARDS----*/
+/*---ASIDE---*/
+/*--FOOTER--*/
+/*--FORMULARIO--*/
+/*--NOSOTROS--*/
+.display, .one, .two {
+  display: flex;
+  align-items: center; }
+
+.mar-font, .one .text-secundario, .two .text-secundario {
+  margin: 40px; }
+
+.navbar {
+  background-color: #d4d0af;
+  color: black; }
+  .navbar .input-buscador {
+    height: 45px; }
+
+.barra-nav {
+  background-color: #b0b0a8; }
+
+.button-nav {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 8px 16px;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #9d9c8a;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 3px 3px 6px #c5c5c5, -3px -3px 6px #ffffff;
+  color: black; }
+  .button-nav .aside {
+    color: black; }
+
+.button-nav:active {
+  background-color: #241e1e;
+  box-shadow: 4px 4px 12px #3b3737, -4px -4px 12px #ffffff; }
+
+button > a {
+  text-decoration: none;
+  color: white; }
+  button > a :hover {
+    border: 1px solid #fffcfc; }
+
+.carousel-inner {
+  height: 350px; }
+
+.carousel-item {
+  height: inherit;
+  position: relative; }
+
+.carousel-item img {
+  position: absolute;
+  bottom: 0; }
+
+article {
+  background-color: white; }
+  article .card {
+    background-color: #eeddc6;
+    margin: 30px 0px 30px 0px;
+    width: 400px; }
+    article .card img {
+      margin: 15px auto 0 auto;
+      max-width: 300px;
+      max-height: 300px; }
+
+aside {
+  background-color: #fcffe7;
+  padding: 10px 0px 10px 0px; }
+  aside .vermas {
+    color: black; }
+  aside .bank {
+    margin: 10px 15px;
+    max-width: 150px;
+    max-height: 150px; }
+  aside .button-medios {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; }
+
+footer {
+  min-height: 60px;
+  background-color: #d4d0af; }
+  footer .icon-red {
+    font-size: 30px; }
+
+footer .icon-red:hover {
+  color: black; }
+
+span {
+  color: black;
+  text-align: center; }
+
+.icon-instagram {
+  color: #f25771; }
+
+.icon-facebook {
+  color: #0c0ce6; }
+
+.icon-whatsapp {
+  color: #12fe12; }
+
+.icon-twitter {
+  color: #37e0f6; }
+
+.carousel-inner {
+  height: 350px; }
+
+.carousel-item {
+  height: inherit;
+  position: relative; }
+
+.carousel-item img {
+  position: absolute;
+  bottom: 0; }
+
+.formulario {
+  display: block; }
+  .formulario .formulario-contacto {
+    background-color: #f5e0e0;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px; }
+    .formulario .formulario-contacto textarea {
+      height: 100px; }
+    .formulario .formulario-contacto .boton-enviar {
+      background-color: #ce9461;
+      color: white; }
+
+.table-bancos {
+  max-width: 600px;
+  margin: 20px auto; }
+
+.portada-principal {
+  width: auto; }
+  .portada-principal .text-principal {
+    margin: 5px;
+    font-size: 20px; }
+
+.one img {
+  width: 50%; }
+
+.two {
+  flex-direction: row-reverse; }
+  .two img {
+    width: 50%; }
+
+.button-buy {
+  width: 50%;
+  padding: 8px 10px;
+  margin: 10px auto;
+  border-radius: 0.5em;
+  background: #928a8a;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 3px 3px 6px #c5c5c5, -3px -3px 6px #ffffff;
+  color: black; }
+
+.card a {
+  text-align: center; }
+  .card a :active {
+    background-color: #c5b141;
+    box-shadow: 4px 4px 12px #3b3737, -4px -4px 12px #ffffff; }
+
+main {
+  text-align: center; }
+
+.table {
+  background-color: #beb2b4; }
+
+.cantidad {
+  width: 100px; }
